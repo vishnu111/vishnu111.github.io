@@ -9,7 +9,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/github-calender-responsive.css" rel="stylesheet">
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    
     <noscript>
       <style type="text/css">
         [data-aos] {
@@ -69,7 +71,7 @@
           <div class="card-body">
             <div class="h4 mt-0 title">About</div>
             <p>Hello! I am Vishnu Lokesh. Web Developer, UI/UX Designer and Photographer.</p>
-            <p> I am working on a github on a project for one stop on data structures <a href="https://github.com/vishnu111/MyDataStructures" target="_blank">Learn More</a></p>
+            <p> I am working on a github project for unlocking the potential of data structures in algorithms<a href="https://github.com/vishnu111/MyDataStructures" target="_blank">Learn More</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -99,6 +101,13 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+<div class="githubcontrib section container">
+  <div class="h4 text-center mb-4 title">My GitHub Calender</div>
+  <div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
   </div>
 </div>
 <div class="section" id="skill">
@@ -513,5 +522,9 @@
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="js/githubjs/github-calendar.min.js"></script>
+    <script>
+      new GitHubCalendar(".calendar", "vishnu111", { responsive: true });
+     </script>
   </body>
 </html>
