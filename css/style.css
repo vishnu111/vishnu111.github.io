@@ -181,6 +181,12 @@ body {
 .hidden {
   display: none;
 }
+.game-section {
+  padding: 0px;
+}
+.player_name {
+  font-size: 16px;
+}
 @media screen and (max-width: 743px) {
   .pig-game {
     height: 49.6rem;

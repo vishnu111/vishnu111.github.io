@@ -72,6 +72,7 @@ btnHold.addEventListener("click", function () {
 btnNew.addEventListener("click", init);
 btnGame.addEventListener("click", function () {
   document.querySelector(".pre-game").classList.add("hidden");
+  document.querySelector(".game-title-heading").classList.add("hidden");
   let playerName = document.querySelector("#player_name").value;
   player1.textContent = playerName;
   player2.textContent = `Evil ${playerName}`;
