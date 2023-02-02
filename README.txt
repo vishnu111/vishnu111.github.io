@@ -1,3 +1,7 @@
+
+This is my repository for personal online portfolio (vishnulokesh.com)
+** I am hosting the site here in github with url (vishnu111.github.io) and redirecting the url from godaddy domain to this.
+ 
 Directory Structure
 -------------------
 css\              - Stylesheets CSS files for the template.
